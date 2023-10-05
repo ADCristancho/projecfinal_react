@@ -27,16 +27,15 @@ const HeaderMusic = () => {
     
     return (
     <header>
-      <h1>Gift Music</h1>
       <div>
         <form onSubmit={handleSubmit(submit)}>
-          <div>
+          <div >
             <label  htmlFor="title">Title</label>
-            <input {...register("title")} type="text" id="title" />
+            <input placeholder="Username" className="input" {...register("title")} type="text" id="title" />
           </div>
           <div>
             <label htmlFor="to">To</label>
-            <input {...register("to")} type="text" id="to" />
+            <input placeholder="Username" className="input" {...register("to")} type="text" id="to" />
           </div>
           <div>
             <label htmlFor="message">Message</label>

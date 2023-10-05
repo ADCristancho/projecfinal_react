@@ -38,7 +38,7 @@ const TrackCard = ({ track }) => {
             <i className='bx bxl-spotify' ></i>
             </a>
             <button onClick={handleAddTrack}>
-            <i className='bx bx-plus-circle'></i>
+            <span><i className='bx bx-plus-circle'>+</i></span>
             </button>
         </footer>
     </section>
