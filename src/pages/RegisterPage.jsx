@@ -18,7 +18,7 @@ const RegisterPage = () => {
 
   return (
     <div>
-      <img src="public/images/img-register.png" alt="" />
+      <img src="https://todoimagenesde.com/wp-content/uploads/2019/03/Bonitos35.jpg" alt="" />
       <article>
       <form onSubmit={handleSubmit(submit)}>
 <div>

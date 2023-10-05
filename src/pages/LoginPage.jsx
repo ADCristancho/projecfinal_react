@@ -18,7 +18,7 @@ const LoginPage = () => {
  
   return (
     <div>
-        <img src="public/images/img-login.png" alt="" />
+        <img src="https://ximagen.com/images/2019/02/11/imagenes-muy-lindas-para-descargar.md.jpg" alt="" />
         <article>
           <h2>Login</h2>
           <form onSubmit={handleSubmit(submit)}>
